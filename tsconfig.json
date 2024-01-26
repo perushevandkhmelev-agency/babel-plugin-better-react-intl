@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "ES2017",
+      "dom",
+      "esnext.intl",
+      "es2017.intl",
+      "es2018.intl"
+    ],
+    "baseUrl": ".",
+    "declaration": true,
+    "strict": true,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "declarationMap": true,
+    "jsx": "react"
+  }
+}
